@@ -1,0 +1,148 @@
+/* Variables globales */
+
+:root {
+    --fondo_color: #121212;
+    --texto_princ: #E0E0E0;
+    --texto_secund: #B0BEC5;
+    --acento_color: #FF4081;
+    --enlace_color: #5f8ec9;
+}
+
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Detalles del cuerpo*/
+
+body {
+    background-color: var(--fondo_color);
+    color: var(--texto_princ);
+}
+
+/* Header */
+
+#logo {
+    display: flex;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    position: fixed;
+    width: 100%;
+    padding: 0px 10px;
+    z-index: 1;
+}
+#logo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#logo div span{
+    width: 30px;
+    height: 5px;
+    background: #B0BEC5;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+/* Navbar*/
+
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: -50%;
+    padding: 15px 10px;
+    background-color: #121a25;
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+    height: 90%;
+    margin-top: 55px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#header_bar {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: solid 3px #FF4081;
+}
+
+#navbar ul li a{
+    font-weight: bold;
+    color: var(--texto_secund);
+}
+
+#navbar ul li a:hover{
+    color: var(--acento_color);
+}
+
+#navbar ul li{
+    margin: 20px 5px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(90deg,var(--fondo_color),#0a2730, var(--fondo_color));
+    border-radius: 50vh 50vw;
+    height: 100vh;
+}
+
+#home_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_head {
+    margin: 10px 10px;
+    text-align: end;
+    padding: 10px;
+    border-bottom: solid 2px #FF4081;
+    color: var(--enlace_color);
+}
+
+.text_section {
+    margin: 0px 5px;
+    padding: 20px;
+}
+
+.text_section li {
+    margin-bottom: 3px;
+    color:  var(--texto_secund);
+}
+
+#unidades {
+    margin-left: 10px;
+}
+
+p {
+    margin: 0px 30px 10px 30px;
+}
+
+.p_1 {
+    color: var(--texto_secund);
+}
+
+.tematics {
+    color: var(--texto_secund);
+    margin: 20px 30px 10px 30px;
+    background: #1c212b;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+}
