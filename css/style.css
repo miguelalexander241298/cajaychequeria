@@ -21,7 +21,7 @@
 /* Detalles del cuerpo*/
 
 body {
-    background-color: var(--fondo_color);
+    background-color: #111111;
     color: var(--texto_princ);
 }
 
@@ -209,3 +209,4 @@ p {
 span {
     font-weight: bold;
 }
+
