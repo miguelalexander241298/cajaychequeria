@@ -15,6 +15,7 @@
     padding: 0px;
     text-decoration: none;
     list-style-type: none;
+    scroll-behavior: smooth;
 }
 
 /* Detalles del cuerpo*/
@@ -31,13 +32,24 @@ body {
     top: 0px;
     justify-content: space-between;
     align-items: center;
-    background: #121212;
+    background: var(--fondo_color);
     position: fixed;
     width: 100%;
     padding: 0px 10px;
     z-index: 1;
 }
-#logo div {
+
+#hamburguers {
+    display: flex;
+    height: 50px;
+}
+
+#hamburguers img {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#hamburguer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,12 +59,49 @@ body {
     cursor: pointer;
 }
 
-#logo div span{
+#hamburguer span {
     width: 30px;
     height: 5px;
     background: #B0BEC5;
     margin-top: 5px;
     border-radius: 10px;
+}
+
+#objetivos {
+    background: #121a25;
+    position: fixed;
+    width: 100%;
+    right: -100%;
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    padding-top: 30px;
+    overflow: auto;
+    transition: all;
+    transition-duration: 0.5s;
+    max-width: 800px;
+}
+
+.cerrar_obj {
+    background: #5f8ec9;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.obj_head {
+    border-bottom: solid 3px var(--acento_color);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 23px;
+
 }
 
 /* Navbar*/
@@ -66,6 +115,7 @@ body {
     background-color: #121a25;
     border-radius: 10px 0px 0px 10px;
     width: 50%;
+    max-width: 400px;
     height: 90%;
     margin-top: 55px;
     transition: all;
@@ -78,24 +128,34 @@ body {
     border-bottom: solid 3px #FF4081;
 }
 
-#navbar ul li a{
+#navbar ul li a {
     font-weight: bold;
     color: var(--texto_secund);
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     color: var(--acento_color);
 }
 
-#navbar ul li{
+#navbar ul li {
     margin: 20px 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sections {
+    max-width: 800px;
 }
 
 #home {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:linear-gradient(90deg,var(--fondo_color),#0a2730, var(--fondo_color));
+    background: linear-gradient(90deg, var(--fondo_color), #0a2730, var(--fondo_color));
     border-radius: 50vh 50vw;
     height: 100vh;
 }
@@ -115,13 +175,16 @@ body {
 }
 
 .text_section {
-    margin: 0px 5px;
+    margin: 10px 30px;
     padding: 20px;
+    background: var(--fondo_color);
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px var(--enlace_color);
 }
 
 .text_section li {
     margin-bottom: 3px;
-    color:  var(--texto_secund);
+    color: var(--texto_secund);
 }
 
 #unidades {
