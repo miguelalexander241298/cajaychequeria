@@ -1,373 +1,1032 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Material Caja y Chequería</title>
-    <meta name="author" content="malexander98">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="resources/icon_app.webp">
-</head>
+    <meta name="author" content="malexander98" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="resources/icon_app.webp" />
+  </head>
 
-<body>
-
+  <body>
     <header id="logo">
-        <h2>cajaYchequería</h2>
-        <div id="hamburguers">
-            <img src="resources/bookstudy.png" id="hamburguer_obj">
-            <div id="hamburguer">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <img src="resources/icon_app.webp" class="headerLogo" />
+      <div id="hamburguers">
+        <img src="resources/bookstudy.png" id="hamburguer_obj" />
+        <div id="hamburguer">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-
+      </div>
     </header>
 
     <!-- Navbar  -->
 
     <nav id="navbar">
-        <ul>
-            <li id="header_bar">Unidades</li>
-            <li><a href="#u1" class="nav">Unidad 1</a></li>
-            <li><a href="#u2" class="nav">Unidad 2</a></li>
-            <li><a href="#u3" class="nav">Unidad 3</a></li>
-            <li><a href="#section_perfil" class="nav">Unidad 4</a></li>
-            <li><a href="#section_perfil" class="nav">Unidad 5</a></li>
-            <li><a href="#section_perfil" class="nav">Unidad 6</a></li>
-        </ul>
+      <ul>
+        <li id="header_bar">Unidades</li>
+        <li><a href="#u1" class="nav">Unidad 1</a></li>
+        <li><a href="#u2" class="nav">Unidad 2</a></li>
+        <li><a href="#u3" class="nav">Unidad 3</a></li>
+        <li><a href="#u4" class="nav">Unidad 4</a></li>
+        <li><a href="#u5" class="nav">Unidad 5</a></li>
+      </ul>
     </nav>
 
     <nav id="objetivos">
-        <h3 class="cerrar_obj">X</h3>
-        <h3 class="obj_head">Objetivos al 1er TC</h3>
-        <p>1- Concepto de <span>Caja registradora</span>.</p>
-        <p>2- Importancia de la caja registradora <span>con no menos de 4 elementos.</span></p>
-        <p>3- Conocer los elementos principales de la actividad de caja y chequearía. <span>(saber uno de cada
-                tipo)</span></p>
-        <p>4- <span>Mencionar</span> como esta estructurado organizativamente un departamento de caja y chequearía.</p>
-        <p>5- <span>Menciona con no menos de 3 elementos</span> los aspectos que pueden facilitar el trabajo de un
-            cajero chequeador.</p>
-        <p>6- Ejemplificar <span>con no menos de 4 elementos</span> las características que deben poseer el mobiliario
-            de un departamento de caja y chequearía.</p>
-        <p>7- Valorarte como trabajador cuando ejerces el papel de cajero chequeador <span>según el cumplimiento del
-                reglamento de trabajo</span>.</p>
-        <p>8- <span>Identificar</span> los modelos que se usan según una situación laboral dada. <span>De uno de los
-                modelos mencionar para que se usa con 2 elementos</span>.</p>
+      <h3 class="cerrar_obj">X</h3>
+      <!-- <h3 class="obj_head">Objetivos al 1er TC</h3>
+      <p>1- Concepto de <span>Caja registradora</span>.</p>
+      <p>
+        2- Importancia de la caja registradora
+        <span>con no menos de 4 elementos.</span>
+      </p>
+      <p>
+        3- Conocer los elementos principales de la actividad de caja y
+        chequearía. <span>(saber uno de cada tipo)</span>
+      </p>
+      <p>
+        4- <span>Mencionar</span> como esta estructurado organizativamente un
+        departamento de caja y chequearía.
+      </p>
+      <p>
+        5- <span>Menciona con no menos de 3 elementos</span> los aspectos que
+        pueden facilitar el trabajo de un cajero chequeador.
+      </p>
+      <p>
+        6- Ejemplificar <span>con no menos de 4 elementos</span> las
+        características que deben poseer el mobiliario de un departamento de
+        caja y chequearía.
+      </p>
+      <p>
+        7- Valorarte como trabajador cuando ejerces el papel de cajero
+        chequeador <span>según el cumplimiento del reglamento de trabajo</span>.
+      </p>
+      <p>
+        8- <span>Identificar</span> los modelos que se usan según una situación
+        laboral dada.
+        <span
+          >De uno de los modelos mencionar para que se usa con 2 elementos</span
+        >.
+      </p> -->
+      <h3 class="obj_head">Objetivos al 2do TC</h3>
+      <p>
+        1- Características de los principales billetes de uso. (MN, USD, EUR)
+        <span>tres de cada tipo</span>.
+      </p>
+      <p>
+        2- Diferencias de los principales billetes de uso. (MN, USD, EUR)
+        <span>tres de cada tipo</span>.
+      </p>
+      <p>
+        3- Conocer las principales tarjetas que son usadas a nivel de país.
+        <span>(saber tres de cada tipo nacionales e internacionales)</span>
+      </p>
+      <p>
+        4- <span>Mencionar</span> el tipo de método de pago a utilizar teniendo
+        una situación dada.
+      </p>
+      <p>
+        5- <span>Menciona con no menos de 3 elementos</span> las ventajas del
+        uso de los medios de pagos electrónicos.
+      </p>
     </nav>
 
     <main>
-        <section class="sections" id="home">
-            <div id="home_head">
-                <img src="resources/icon_app.webp">
-                <h2 class="cont_head">Sea Bienvenido</h2>
-            </div>
-            <div class="text_section">
-                <h4>Aquí comienza el material de estudio de la asignatura de CAJA Y CHEQUERÍA.</h4>
-                <br>
-                <h4>Encontrará todo el contenido apartado por unidades de aprendizaje en la barra lateral:</h4>
-                <br>
-                <ul id="unidades">
-                    <li>U1- Introducción a la Caja y Chequería.</li>
-                    <li>U2- El Departamento de Caja y Chequería.</li>
-                    <li>U3- Modelos y Controles del Cajero Chequeador.</li>
-                    <li>U4- Medios de Pago del Cajero Chequeador.</li>
-                    <li>U5- Máquinas Registradoras y Sistema de Cuadre.</li>
-                    <li>U6- Bancarización de transacciones</li>
-                </ul>
-            </div>
-        </section>
+      <section class="sections" id="home">
+        <div id="home_head">
+          <h2 class="cont_head">Sea Bienvenido</h2>
+        </div>
+        <div class="text_section">
+          <h4>
+            Aquí comienza el material de estudio de la asignatura de CAJA Y
+            CHEQUERÍA.
+          </h4>
+          <br />
+          <h3>
+            Encontrará todo el contenido apartado por unidades de aprendizaje en
+            la barra lateral:
+          </h3>
+          <br />
+          <ul id="unidades">
+            <li>U1- Introducción a la Caja y Chequería.</li>
+            <li>U2- El Departamento de Caja y Chequería.</li>
+            <li>U3- Modelos y Controles del Cajero Chequeador.</li>
+            <li>U4- Medios de Pago del Cajero Chequeador.</li>
+            <li>U5- Máquinas Registradoras y Sistema de Cuadre.</li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="sections" id="u1">
-            <h2 class="cont_head">Unidad 1</h2>
-            <h3 class="tematics">Reseña histórica del surgimiento de la caja registradora</h3>
-            <p class="p_1">Origen: una solución contra el robo</p>
-            <p>La caja registradora fue inventada en <span>1879</span> por <span>James Ritty</span>, un empresario de
-                Dayton, Ohio, dueño de un salón (cantina).</p>
-            <p>Ritty enfrentaba un problema común en su época: <span>el robo por parte de sus empleados</span>, quienes
-                manipulaban las ventas y se quedaban con parte del dinero.
-            <p>Durante un viaje en barco a Europa, observó una máquina que contaba las revoluciones de la hélice. Esto
-                lo inspiró a crear un dispositivo que <span>registrara cada transacción comercial</span>.</p>
-            <p class="p_1">El nacimiento de la “caja incorruptible”</p>
-            <p>Junto a su hermano John, mecánico de oficio, diseñó la primera caja registradora, que <span>no tenía
-                    cajón</span>: solo registraba el número de ventas y sus importes.</p>
-            <p>En <span>1883</span>, patentaron el invento, pero la empresa original no tuvo éxito
-                comercial.</p>
+      <section class="sections" id="u1">
+        <h2 class="cont_head">Unidad 1</h2>
+        <h3 class="tematics">
+          Reseña histórica del surgimiento de la caja registradora
+        </h3>
+        <p class="p_1">Origen: una solución contra el robo</p>
+        <p>
+          La caja registradora fue inventada en <span>1879</span> por
+          <span>James Ritty</span>, un empresario de Dayton, Ohio, dueño de un
+          salón (cantina).
+        </p>
+        <p>
+          Ritty enfrentaba un problema común en su época:
+          <span>el robo por parte de sus empleados</span>, quienes manipulaban
+          las ventas y se quedaban con parte del dinero.
+        </p>
 
-            <p class="p_1">Evolución empresarial: el salto a la industria</p>
-            <p>Ritty vendió la patente a <span>Jacob H. Eckert</span>, quien luego la transfirió a <span>John H.
-                    Patterson</span>.</p>
-            <p>Patterson fundó en <span>1884</span> la <span>National Cash Register Company (NCR)</span>, que
-                revolucionó el invento:</p>
-            <p>- Añadió un <span>rollo de papel</span> para registrar las transacciones.</p>
-            <p>- Introdujo el <span>cajón de dinero</span>, que se abría solo al finalizar una venta.</p>
-            <p>- Incorporó un <span>sonido de campanilla</span> para alertar al dueño del
-                comercio</p>
-            <p class="p_1">Innovación tecnológica</p>
-            <p>En <span>1906</span>, el ingeniero <span>Charles F. Kettering</span> añadió un <span>motor
-                    eléctrico</span>, aumentando la velocidad
-                de impresión y eficiencia del sistema</p>
-            <p>A lo largo del siglo XX, las cajas registradoras evolucionaron hacia sistemas <span>electrónicos</span> y
-                luego <span>digitales</span>, integrando funciones como:</p>
-            <p>- Impresión de tickets.</p>
-            <p>- Cálculo automático de impuestos.</p>
-            <p>- Conexión con sistemas contables y bases de datos.</p>
-            <p class="p_1">Era moderna: del hardware al software</p>
-            <p>Desde los años 90, con la masificación de las computadoras personales, muchas cajas registradoras fueron
-                reemplazadas por <span>sistemas POS (Point of Sale)</span> basados en software</p>
-            <p>Hoy en día, estos sistemas permiten:</p>
-            <p>- Integración con inventarios.</p>
-            <p>- Pagos electrónicos.</p>
-            <p>- Análisis de ventas en tiempo real.</p>
+        <p>
+          Durante un viaje en barco a Europa, observó una máquina que contaba
+          las revoluciones de la hélice. Esto lo inspiró a crear un dispositivo
+          que <span>registrara cada transacción comercial</span>.
+        </p>
+        <p class="p_1">El nacimiento de la “caja incorruptible”</p>
+        <p>
+          Junto a su hermano John, mecánico de oficio, diseñó la primera caja
+          registradora, que <span>no tenía cajón</span>: solo registraba el
+          número de ventas y sus importes.
+        </p>
+        <p>
+          En <span>1883</span>, patentaron el invento, pero la empresa original
+          no tuvo éxito comercial.
+        </p>
 
-            <h3 class="tematics">Definición de la caja registradora</h3>
-            <p>Una <span>caja registradora</span> es un dispositivo mecánico, electrónico o digital diseñado para
-                <span>calcular,
-                    registrar y almacenar las transacciones comerciales</span> realizadas en un negocio. Generalmente
-                incluye:
-            </p>
-            <p>- Un <span>teclado o pantalla táctil</span> para ingresar montos.</p>
-            <p>- Una <span>pantalla</span> para el operador</p>
-            <p>- Una <span>impresora de recibos</span>.</p>
-            <p>- Un <span>cajón de seguridad</span> para guardar el dinero en efectivo.</p>
-            <p>- En modelos avanzados: lectores de códigos de barras, conexión con inventarios y sistemas
-                contables.</p>
-            <h3 class="tematics">Importancia de la caja registradora</h3>
-            <p class="p_1">Seguridad y control</p>
-            <p>- Evita el hurto interno al registrar cada transacción y controlar la apertura del cajón de
-                dinero.</p>
-            <p>- Genera alertas (como sonidos) al abrir el cajón, lo que mejora la supervisión.</p>
-            <p class="p_1">Gestión financiera</p>
-            <p>- Lleva un <span>registro detallado de ventas</span>, útil para contabilidad, auditorías y cumplimiento
-                fiscal</p>
-            <p>- Facilita el cálculo de impuestos y la emisión de facturas o tickets.</p>
-            <p class="p_1">Confianza y profesionalismo</p>
-            <p>- Al entregar comprobantes, mejora la <span>transparencia</span> y la <span>confianza del cliente</span>.
-            </p>
-            <p>- Refuerza la imagen del negocio como organizado y confiable.</p>
-            <p class="p_1">Automatización y eficiencia</p>
-            <p>- Agiliza el proceso de cobro, reduce errores humanos y permite atender más clientes en menos tiempo.</p>
-            <p>- En modelos modernos, se integra con sistemas de gestión para controlar inventarios, empleados y
-                reportes</p>
-            <h3 class="tematics">Elementos principales de la actividad de Caja y Chequería</h3>
+        <p class="p_1">Evolución empresarial: el salto a la industria</p>
+        <p>
+          Ritty vendió la patente a <span>Jacob H. Eckert</span>, quien luego la
+          transfirió a <span>John H. Patterson</span>.
+        </p>
+        <p>
+          Patterson fundó en <span>1884</span> la
+          <span>National Cash Register Company (NCR)</span>, que revolucionó el
+          invento:
+        </p>
+        <p>
+          - Añadió un <span>rollo de papel</span> para registrar las
+          transacciones.
+        </p>
+        <p>
+          - Introdujo el <span>cajón de dinero</span>, que se abría solo al
+          finalizar una venta.
+        </p>
+        <p>
+          - Incorporó un <span>sonido de campanilla</span> para alertar al dueño
+          del comercio
+        </p>
+        <p class="p_1">Innovación tecnológica</p>
+        <p>
+          En <span>1906</span>, el ingeniero
+          <span>Charles F. Kettering</span> añadió un
+          <span>motor eléctrico</span>, aumentando la velocidad de impresión y
+          eficiencia del sistema
+        </p>
+        <p>
+          A lo largo del siglo XX, las cajas registradoras evolucionaron hacia
+          sistemas <span>electrónicos</span> y luego <span>digitales</span>,
+          integrando funciones como:
+        </p>
+        <p>- Impresión de tickets.</p>
+        <p>- Cálculo automático de impuestos.</p>
+        <p>- Conexión con sistemas contables y bases de datos.</p>
+        <p class="p_1">Era moderna: del hardware al software</p>
+        <p>
+          Desde los años 90, con la masificación de las computadoras personales,
+          muchas cajas registradoras fueron reemplazadas por
+          <span>sistemas POS (Point of Sale)</span> basados en software
+        </p>
+        <p>Hoy en día, estos sistemas permiten:</p>
+        <p>- Integración con inventarios.</p>
+        <p>- Pagos electrónicos.</p>
+        <p>- Análisis de ventas en tiempo real.</p>
 
-            <p class="p_1">Caja</p>
-            <p>- <span>Billetes y monedas</span> (nacionales y extranjeros).</p>
-            <p>- <span>Cheques recibidos</span> como forma de pago.</p>
-            <p>- <span>Vales de caja</span>: documentos que justifican desembolsos internos.</p>
-            <p>- <span>Boletas de depósito bancario</span>: respaldan ingresos depositados.</p>
-            <p>- <span>Recibos de caja</span>: registran entradas de efectivo.</p>
-            <p>- <span>Arqueo de caja</span>: verificación física del dinero vs registros contables.</p>
-            <p class="p_1">Chequería</p>
-            <p>- <span>Cheques emitidos</span>: para pagos a proveedores, nómina, etc.</p>
-            <p>- <span>Talonarios de cheques</span>: deben estar numerados y controlados.</p>
-            <p>- <span>Registro de cheques</span>: libro o sistema donde se anotan todos los cheques emitidos, con
-                fecha, monto y
-                beneficiario.</p>
-            <p>- <span>Conciliación bancaria</span>: comparación entre los cheques emitidos y los movimientos bancarios
-                reales.</p>
-            <p>- <span>Autorización de firmas</span>: control sobre quién puede emitir cheques.</p>
-            <p class="p_1">Control interno</p>
-            <p>- <span>Separación de funciones</span>: quien maneja el dinero no debe registrar las operaciones.</p>
-            <p>- <span>Documentación respaldatoria</span>: cada movimiento debe estar justificado.</p>
-            <p>- <span>Cierres diarios</span>: para evitar errores y detectar irregularidades.</p>
-            <p>- <span>Auditorías internas</span>: periódicas para verificar cumplimiento.</p>
-        </section>
+        <h3 class="tematics">Definición de la caja registradora</h3>
+        <p>
+          Una <span>caja registradora</span> es un dispositivo mecánico,
+          electrónico o digital diseñado para
+          <span
+            >calcular, registrar y almacenar las transacciones comerciales</span
+          >
+          realizadas en un negocio. Generalmente incluye:
+        </p>
+        <p>- Un <span>teclado o pantalla táctil</span> para ingresar montos.</p>
+        <p>- Una <span>pantalla</span> para el operador</p>
+        <p>- Una <span>impresora de recibos</span>.</p>
+        <p>
+          - Un <span>cajón de seguridad</span> para guardar el dinero en
+          efectivo.
+        </p>
+        <p>
+          - En modelos avanzados: lectores de códigos de barras, conexión con
+          inventarios y sistemas contables.
+        </p>
+        <h3 class="tematics">Importancia de la caja registradora</h3>
+        <p class="p_1">Seguridad y control</p>
+        <p>
+          - Evita el hurto interno al registrar cada transacción y controlar la
+          apertura del cajón de dinero.
+        </p>
+        <p>
+          - Genera alertas (como sonidos) al abrir el cajón, lo que mejora la
+          supervisión.
+        </p>
+        <p class="p_1">Gestión financiera</p>
+        <p>
+          - Lleva un <span>registro detallado de ventas</span>, útil para
+          contabilidad, auditorías y cumplimiento fiscal
+        </p>
+        <p>
+          - Facilita el cálculo de impuestos y la emisión de facturas o tickets.
+        </p>
+        <p class="p_1">Confianza y profesionalismo</p>
+        <p>
+          - Al entregar comprobantes, mejora la <span>transparencia</span> y la
+          <span>confianza del cliente</span>.
+        </p>
+        <p>- Refuerza la imagen del negocio como organizado y confiable.</p>
+        <p class="p_1">Automatización y eficiencia</p>
+        <p>
+          - Agiliza el proceso de cobro, reduce errores humanos y permite
+          atender más clientes en menos tiempo.
+        </p>
+        <p>
+          - En modelos modernos, se integra con sistemas de gestión para
+          controlar inventarios, empleados y reportes
+        </p>
+        <h3 class="tematics">
+          Elementos principales de la actividad de Caja y Chequería
+        </h3>
 
-        <section class="sections" id="u2">
-            <h2 class="cont_head">Unidad 2</h2>
-            <h3 class="tematics">Estructura organizativa del Departamento de Caja y Chequería.</h3>
-            <p class="p_1">Jefatura del Departamento</p>
-            <p>Dirección general, supervisión de procesos, coordinación con otras áreas
-                financieras.</p>
-            <p class="p_1">Subjefatura</p>
-            <p>Apoyo directo a la jefatura, seguimiento de tareas operativas y administrativas.</p>
-            <p class="p_1">Coordinación de Ingresos</p>
-            <p>Control de cobros, recepción de pagos, conciliación de ingresos bancarios.</p>
-            <p class="p_1">Coordinación de Egresos</p>
-            <p>Gestión de pagos, emisión de cheques, control de salidas de fondos.</p>
-            <p class="p_1">Coordinación Administrativa</p>
-            <p>Manejo de documentación, archivo, atención al cliente interno, soporte
-                logístico.</p>
-            <p class="p_1">Coordinación de Sueldos</p>
-            <p>Procesamiento de nómina, pagos de salarios, coordinación con recursos
-                humanos.</p>
-            <p class="p_1">Tesorería / Caja Central</p>
-            <p>Manejo físico del efectivo, control de caja chica, atención directa a
-                usuarios.</p>
-            <p class="p_1">Contabilidad Interna</p>
-            <p>Registro contable de operaciones, conciliaciones bancarias, informes
-                financieros.</p>
-            <h3 class="tematics">Ubicación en el establecimiento.</h3>
-            <p>En el establecimiento no existen cajas registradoras, pero si existen disimiles POS de venta en ambas
-                monedas en todos los establecimientos que presta servicio el complejo.</p>
-            <h3 class="tematics">Aspectos que facilitan el trabajo en el Departamento de Caja y Chequería.</h3>
-            <p>- Iluminación.</p>
-            <p>- Ventilación.</p>
-            <p>- Orden y Limpieza.</p>
-            <p>- Música Indirecta</p>
-            <h3 class="tematics">Características del Mobiliario del Departamento de Caja y Chequería.</h3>
-            <p class="p_1">Seguridad</p>
-            <p>- Cajones con cerradura para efectivo y documentos confidenciales.</p>
-            <p>- Compartimentos ocultos o reforzados para cheques, talonarios y sellos.</p>
-            <p>- Materiales resistentes al fuego y al agua para proteger activos.</p>
-            <p class="p_1">Ergonomía y Comodidad</p>
-            <p>- Altura adecuada para trabajo sentado o de pie, según el flujo operativo.</p>
-            <p>- Sillas ergonómicas para evitar fatiga en jornadas largas.</p>
-            <p>- Espacios amplios para movilidad del personal sin interferencias.</p>
-            <p class="p_1">Organización y Funcionalidad</p>
-            <p>- Módulos con divisiones para efectivo, cheques, recibos y formularios.</p>
-            <p>- Superficies de trabajo amplias para conteo, revisión y firma de documentos.</p>
-            <p>- Bandejas deslizables para facilitar el acceso a herramientas de trabajo.</p>
-            <p class="p_1">Integración Tecnológica</p>
-            <p>- Espacios para terminales de punto de venta, impresoras, escáneres y monitores.</p>
-            <p>- Canaletas o pasacables para evitar enredos y facilitar mantenimiento.</p>
-            <p>- Soportes para pantallas o lectores de código, si aplica.</p>
-            <p class="p_1">Diseño y Materiales</p>
-            <p>- Acabados sobrios y profesionales (madera laminada, metal pintado, etc.).</p>
-            <p>- Colores que transmitan confianza y orden (gris, azul oscuro, blanco).</p>
-            <p>- Superficies fáciles de limpiar y resistentes al desgaste.</p>
-            <p class="p_1">Distribución Estratégica</p>
-            <p>- Ubicación que permita visibilidad y control del área de atención al público.</p>
-            <p>- Separación física entre caja y chequería si ambas funciones se realizan en el mismo espacio.</p>
-            <p>- Accesos controlados para personal autorizado.</p>
+        <p class="p_1">Caja</p>
+        <p>- <span>Billetes y monedas</span> (nacionales y extranjeros).</p>
+        <p>- <span>Cheques recibidos</span> como forma de pago.</p>
+        <p>
+          - <span>Vales de caja</span>: documentos que justifican desembolsos
+          internos.
+        </p>
+        <p>
+          - <span>Boletas de depósito bancario</span>: respaldan ingresos
+          depositados.
+        </p>
+        <p>- <span>Recibos de caja</span>: registran entradas de efectivo.</p>
+        <p>
+          - <span>Arqueo de caja</span>: verificación física del dinero vs
+          registros contables.
+        </p>
+        <p class="p_1">Chequería</p>
+        <p>
+          - <span>Cheques emitidos</span>: para pagos a proveedores, nómina,
+          etc.
+        </p>
+        <p>
+          - <span>Talonarios de cheques</span>: deben estar numerados y
+          controlados.
+        </p>
+        <p>
+          - <span>Registro de cheques</span>: libro o sistema donde se anotan
+          todos los cheques emitidos, con fecha, monto y beneficiario.
+        </p>
+        <p>
+          - <span>Conciliación bancaria</span>: comparación entre los cheques
+          emitidos y los movimientos bancarios reales.
+        </p>
+        <p>
+          - <span>Autorización de firmas</span>: control sobre quién puede
+          emitir cheques.
+        </p>
+        <p class="p_1">Control interno</p>
+        <p>
+          - <span>Separación de funciones</span>: quien maneja el dinero no debe
+          registrar las operaciones.
+        </p>
+        <p>
+          - <span>Documentación respaldatoria</span>: cada movimiento debe estar
+          justificado.
+        </p>
+        <p>
+          - <span>Cierres diarios</span>: para evitar errores y detectar
+          irregularidades.
+        </p>
+        <p>
+          - <span>Auditorías internas</span>: periódicas para verificar
+          cumplimiento.
+        </p>
+      </section>
 
-            <h3 class="tematics">Utensilios de trabajo del Cajero Chequeador.</h3>
-            <p class="p_1">Tecnológicos</p>
-            <p>- <span>Computadora o terminal de punto de venta (TPV)</span>: Para registrar operaciones, emitir
-                comprobantes y
-                consultar saldos.</p>
-            <p>- <span>Impresora de recibos y cheques</span>: Para emitir documentos físicos de pago.</p>
-            <p>- <span>Escáner o lector de códigos</span>: Para validar documentos o identificar clientes.</p>
-            <p>- <span>Calculadora financiera</span>: Para operaciones rápidas y precisas.</p>
-            <p class="p_1">Documentales y de control</p>
-            <p>- <span>Talonarios de cheques</span>: Preimpresos o personalizados, según el sistema.</p>
-            <p>- <span>Recibos y formularios</span>: Para registrar pagos, depósitos y transacciones.</p>
-            <p>- <span>Sellos de seguridad</span>: Con firma, fecha, “Pagado”, “Recibido”, etc.</p>
-            <p>- <span>Tinta para sellos</span> y <span>almohadillas</span>.</p>
-            <p class="p_1">Seguridad y manejo de efectivo</p>
-            <p>- <span>Caja registradora o caja fuerte</span>: Para guardar dinero en efectivo y documentos sensibles.
-            </p>
-            <p>- <span>Cajones con llave</span>: Para dividir billetes, monedas y documentos.</p>
-            <p>- <span>Bolsa de transporte de valores</span>: Si se realizan traslados internos o externos.</p>
-            <p class="p_1">Papelería básica</p>
-            <p>- <span>Bolígrafos y marcadores indelebles</span>: Para firmar y anotar.</p>
-            <p>- <span>Cosedora (engrampadora)</span> y <span>perforadora</span>: Para organizar documentos.</p>
-            <p>- <span>Carpetas clasificadoras</span>: Para archivar comprobantes y formularios.</p>
-            <p>- <span>Notas adhesivas o etiquetas</span>: Para marcar documentos pendientes o especiales.</p>
-            <p class="p_1">Higiene y presentación</p>
-            <p>- <span>Toallitas o paños de limpieza</span>: Para mantener limpio el espacio de trabajo.</p>
-            <p>- <span>Organizadores de escritorio</span>: Para mantener orden y accesibilidad.</p>
-            <h3 class="tematics">Reglamento de Trabajo del Cajero- Chequeador.</h3>
-            <p class="p_1">Funciones Generales</p>
-            <p>- Recepción, verificación y entrega de dinero en efectivo, cheques y otros documentos de valor.</p>
-            <p>- Registro de transacciones en sistemas informáticos o cajas registradoras.</p>
-            <p>- Emisión y validación de comprobantes de pago.</p>
-            <p>- Realización de arqueos de caja y entrega de reportes diarios.</p>
-            <p>- Custodia de valores y documentos bajo su responsabilidad.</p>
-            <p class="p_1">Normas de Seguridad</p>
-            <p>- No portar celular durante la jornada laboral</p>
-            <p>- No registrar operaciones con el cajón abierto ni dejar dinero fuera del monedero</p>
-            <p>- Prohibido cambiar efectivo a personas ajenas o permitir que manipulen el sistema</p>
-            <p>- Solicitar siempre identificación para operaciones con tarjeta de crédito</p>
-            <p>- Mantener claves de acceso protegidas y cerrar sesión al abandonar el puesto</p>
-            <p class="p_1">Presentación y Conducta</p>
-            <p>- Portar uniforme y carnet institucional</p>
-            <p>- Mantener el área de trabajo limpia y ordenada</p>
-            <p>- Ser puntual y cumplir con los horarios establecidos</p>
-            <p>- No registrar compras propias ni de familiares cercanos</p>
-            <p class="p_1">Responsabilidades Administrativas</p>
-            <p>- Cumplir con los manuales, estatutos y protocolos internos</p>
-            <p>- Participar en capacitaciones y actividades convocadas por la institución</p>
-            <p>- Aplicar principios éticos y valores corporativos en la atención al cliente</p>
-            <p>- No divulgar información confidencial a personas no autorizadas</p>
-            <p class="p_1">Condiciones de Trabajo</p>
-            <p>- Trabajo en espacios cerrados, generalmente en cubículos</p>
-            <p>- Riesgo constante por manejo de dinero y documentos de valor</p>
-            <p>- Requiere alta concentración y atención durante toda la jornada</p>
-        </section>
+      <section class="sections" id="u2">
+        <h2 class="cont_head">Unidad 2</h2>
+        <h3 class="tematics">
+          Estructura organizativa del Departamento de Caja y Chequería.
+        </h3>
+        <p class="p_1">Jefatura del Departamento</p>
+        <p>
+          Dirección general, supervisión de procesos, coordinación con otras
+          áreas financieras.
+        </p>
+        <p class="p_1">Subjefatura</p>
+        <p>
+          Apoyo directo a la jefatura, seguimiento de tareas operativas y
+          administrativas.
+        </p>
+        <p class="p_1">Coordinación de Ingresos</p>
+        <p>
+          Control de cobros, recepción de pagos, conciliación de ingresos
+          bancarios.
+        </p>
+        <p class="p_1">Coordinación de Egresos</p>
+        <p>
+          Gestión de pagos, emisión de cheques, control de salidas de fondos.
+        </p>
+        <p class="p_1">Coordinación Administrativa</p>
+        <p>
+          Manejo de documentación, archivo, atención al cliente interno, soporte
+          logístico.
+        </p>
+        <p class="p_1">Coordinación de Sueldos</p>
+        <p>
+          Procesamiento de nómina, pagos de salarios, coordinación con recursos
+          humanos.
+        </p>
+        <p class="p_1">Tesorería / Caja Central</p>
+        <p>
+          Manejo físico del efectivo, control de caja chica, atención directa a
+          usuarios.
+        </p>
+        <p class="p_1">Contabilidad Interna</p>
+        <p>
+          Registro contable de operaciones, conciliaciones bancarias, informes
+          financieros.
+        </p>
+        <h3 class="tematics">Ubicación en el establecimiento.</h3>
+        <p>
+          En el establecimiento no existen cajas registradoras, pero si existen
+          disimiles POS de venta en ambas monedas en todos los establecimientos
+          que presta servicio el complejo.
+        </p>
+        <h3 class="tematics">
+          Aspectos que facilitan el trabajo en el Departamento de Caja y
+          Chequería.
+        </h3>
+        <p>- Iluminación.</p>
+        <p>- Ventilación.</p>
+        <p>- Orden y Limpieza.</p>
+        <p>- Música Indirecta</p>
+        <h3 class="tematics">
+          Características del Mobiliario del Departamento de Caja y Chequería.
+        </h3>
+        <p class="p_1">Seguridad</p>
+        <p>
+          - Cajones con cerradura para efectivo y documentos confidenciales.
+        </p>
+        <p>
+          - Compartimentos ocultos o reforzados para cheques, talonarios y
+          sellos.
+        </p>
+        <p>
+          - Materiales resistentes al fuego y al agua para proteger activos.
+        </p>
+        <p class="p_1">Ergonomía y Comodidad</p>
+        <p>
+          - Altura adecuada para trabajo sentado o de pie, según el flujo
+          operativo.
+        </p>
+        <p>- Sillas ergonómicas para evitar fatiga en jornadas largas.</p>
+        <p>
+          - Espacios amplios para movilidad del personal sin interferencias.
+        </p>
+        <p class="p_1">Organización y Funcionalidad</p>
+        <p>
+          - Módulos con divisiones para efectivo, cheques, recibos y
+          formularios.
+        </p>
+        <p>
+          - Superficies de trabajo amplias para conteo, revisión y firma de
+          documentos.
+        </p>
+        <p>
+          - Bandejas deslizables para facilitar el acceso a herramientas de
+          trabajo.
+        </p>
+        <p class="p_1">Integración Tecnológica</p>
+        <p>
+          - Espacios para terminales de punto de venta, impresoras, escáneres y
+          monitores.
+        </p>
+        <p>
+          - Canaletas o pasacables para evitar enredos y facilitar
+          mantenimiento.
+        </p>
+        <p>- Soportes para pantallas o lectores de código, si aplica.</p>
+        <p class="p_1">Diseño y Materiales</p>
+        <p>
+          - Acabados sobrios y profesionales (madera laminada, metal pintado,
+          etc.).
+        </p>
+        <p>
+          - Colores que transmitan confianza y orden (gris, azul oscuro,
+          blanco).
+        </p>
+        <p>- Superficies fáciles de limpiar y resistentes al desgaste.</p>
+        <p class="p_1">Distribución Estratégica</p>
+        <p>
+          - Ubicación que permita visibilidad y control del área de atención al
+          público.
+        </p>
+        <p>
+          - Separación física entre caja y chequería si ambas funciones se
+          realizan en el mismo espacio.
+        </p>
+        <p>- Accesos controlados para personal autorizado.</p>
 
-        <section class="sections" id="u3">
-            <h2 class="cont_head">Unidad 3</h2>
+        <h3 class="tematics">Utensilios de trabajo del Cajero Chequeador.</h3>
+        <p class="p_1">Tecnológicos</p>
+        <p>
+          - <span>Computadora o terminal de punto de venta (TPV)</span>: Para
+          registrar operaciones, emitir comprobantes y consultar saldos.
+        </p>
+        <p>
+          - <span>Impresora de recibos y cheques</span>: Para emitir documentos
+          físicos de pago.
+        </p>
+        <p>
+          - <span>Escáner o lector de códigos</span>: Para validar documentos o
+          identificar clientes.
+        </p>
+        <p>
+          - <span>Calculadora financiera</span>: Para operaciones rápidas y
+          precisas.
+        </p>
+        <p class="p_1">Documentales y de control</p>
+        <p>
+          - <span>Talonarios de cheques</span>: Preimpresos o personalizados,
+          según el sistema.
+        </p>
+        <p>
+          - <span>Recibos y formularios</span>: Para registrar pagos, depósitos
+          y transacciones.
+        </p>
+        <p>
+          - <span>Sellos de seguridad</span>: Con firma, fecha, “Pagado”,
+          “Recibido”, etc.
+        </p>
+        <p>- <span>Tinta para sellos</span> y <span>almohadillas</span>.</p>
+        <p class="p_1">Seguridad y manejo de efectivo</p>
+        <p>
+          - <span>Caja registradora o caja fuerte</span>: Para guardar dinero en
+          efectivo y documentos sensibles.
+        </p>
+        <p>
+          - <span>Cajones con llave</span>: Para dividir billetes, monedas y
+          documentos.
+        </p>
+        <p>
+          - <span>Bolsa de transporte de valores</span>: Si se realizan
+          traslados internos o externos.
+        </p>
+        <p class="p_1">Papelería básica</p>
+        <p>
+          - <span>Bolígrafos y marcadores indelebles</span>: Para firmar y
+          anotar.
+        </p>
+        <p>
+          - <span>Cosedora (engrampadora)</span> y <span>perforadora</span>:
+          Para organizar documentos.
+        </p>
+        <p>
+          - <span>Carpetas clasificadoras</span>: Para archivar comprobantes y
+          formularios.
+        </p>
+        <p>
+          - <span>Notas adhesivas o etiquetas</span>: Para marcar documentos
+          pendientes o especiales.
+        </p>
+        <p class="p_1">Higiene y presentación</p>
+        <p>
+          - <span>Toallitas o paños de limpieza</span>: Para mantener limpio el
+          espacio de trabajo.
+        </p>
+        <p>
+          - <span>Organizadores de escritorio</span>: Para mantener orden y
+          accesibilidad.
+        </p>
+        <h3 class="tematics">Reglamento de Trabajo del Cajero- Chequeador.</h3>
+        <p class="p_1">Funciones Generales</p>
+        <p>
+          - Recepción, verificación y entrega de dinero en efectivo, cheques y
+          otros documentos de valor.
+        </p>
+        <p>
+          - Registro de transacciones en sistemas informáticos o cajas
+          registradoras.
+        </p>
+        <p>- Emisión y validación de comprobantes de pago.</p>
+        <p>- Realización de arqueos de caja y entrega de reportes diarios.</p>
+        <p>- Custodia de valores y documentos bajo su responsabilidad.</p>
+        <p class="p_1">Normas de Seguridad</p>
+        <p>- No portar celular durante la jornada laboral</p>
+        <p>
+          - No registrar operaciones con el cajón abierto ni dejar dinero fuera
+          del monedero
+        </p>
+        <p>
+          - Prohibido cambiar efectivo a personas ajenas o permitir que
+          manipulen el sistema
+        </p>
+        <p>
+          - Solicitar siempre identificación para operaciones con tarjeta de
+          crédito
+        </p>
+        <p>
+          - Mantener claves de acceso protegidas y cerrar sesión al abandonar el
+          puesto
+        </p>
+        <p class="p_1">Presentación y Conducta</p>
+        <p>- Portar uniforme y carnet institucional</p>
+        <p>- Mantener el área de trabajo limpia y ordenada</p>
+        <p>- Ser puntual y cumplir con los horarios establecidos</p>
+        <p>- No registrar compras propias ni de familiares cercanos</p>
+        <p class="p_1">Responsabilidades Administrativas</p>
+        <p>- Cumplir con los manuales, estatutos y protocolos internos</p>
+        <p>
+          - Participar en capacitaciones y actividades convocadas por la
+          institución
+        </p>
+        <p>
+          - Aplicar principios éticos y valores corporativos en la atención al
+          cliente
+        </p>
+        <p>- No divulgar información confidencial a personas no autorizadas</p>
+        <p class="p_1">Condiciones de Trabajo</p>
+        <p>- Trabajo en espacios cerrados, generalmente en cubículos</p>
+        <p>- Riesgo constante por manejo de dinero y documentos de valor</p>
+        <p>- Requiere alta concentración y atención durante toda la jornada</p>
+      </section>
 
-            <h3 class="tematics">Modelo Vales de Venta</h3>
-            <p>El Modelo Vales de Venta se utiliza como comprobante interno para dejar constancia de una venta
-                realizada, cuando por razones operativas no se emite la factura en ese momento. Sirve para mantener el
-                control de las salidas de mercancía y asegurar que luego se registre correctamente en la contabilidad y
-                en caja</p>
-            <p class="p_1">¿Para qué se usa el Modelo Vales de Venta? </p>
-            <p>a) Para registrar las operaciones de compra de insumos de la empresa.</p>
-            <p>b) Para controlar y documentar las ventas realizadas, especialmente cuando se entregan productos sin
-                factura inmediata.</p>
-            <p>c) Para calcular el saldo de caja al cierre del día.</p>
-            <p>d) Para llevar el control de los cheques emitidos por la empresa.</p>
+      <section class="sections" id="u3">
+        <h2 class="cont_head">Unidad 3</h2>
 
-            <h3 class="tematics">Modelo Liquidación Diaria de Caja</h3>
-            <p>El Modelo de Liquidación Diaria de Caja se utiliza para dejar constancia de todas las operaciones de
-                efectivo realizadas en el día (entradas y salidas). Permite comparar el saldo inicial con los
-                movimientos y obtener el saldo final, asegurando que coincida con el efectivo realmente existente en la
-                caja. Es un instrumento de control interno fundamental para evitar errores o faltantes.</p>
-            <p class="p_1">¿Para qué se usa el Modelo Liquidación Diaria de Caja? </p>
-            <p>a) Registrar únicamente las ventas realizadas en efectivo durante el día.</p>
-            <p>b) Servir como comprobante para el pago de salarios a los trabajadores. </p>
-            <p>c) Resumir y controlar todas las operaciones de entrada y salida de dinero en caja durante la jornada,
-                permitiendo verificar el saldo final.</p>
-            <p>d) Sustituir la factura oficial en las operaciones de venta.</p>
+        <h3 class="tematics">Modelo Vales de Venta</h3>
+        <p>
+          El Modelo Vales de Venta se utiliza como comprobante interno para
+          dejar constancia de una venta realizada, cuando por razones operativas
+          no se emite la factura en ese momento. Sirve para mantener el control
+          de las salidas de mercancía y asegurar que luego se registre
+          correctamente en la contabilidad y en caja
+        </p>
+        <p class="p_1">¿Para qué se usa el Modelo Vales de Venta?</p>
+        <p>
+          a) Para registrar las operaciones de compra de insumos de la empresa.
+        </p>
+        <p>
+          b) Para controlar y documentar las ventas realizadas, especialmente
+          cuando se entregan productos sin factura inmediata.
+        </p>
+        <p>c) Para calcular el saldo de caja al cierre del día.</p>
+        <p>d) Para llevar el control de los cheques emitidos por la empresa.</p>
 
-            <h3 class="tematics">Modelo Certificado de Propiedad</h3>
-            <p>El Modelo Certificado de Propiedad es un documento que acredita la propiedad de un bien o activo. Sirve
-                como respaldo legal y administrativo para demostrar quién es el titular legítimo, evitando conflictos y
-                garantizando seguridad jurídica en las operaciones de la empresa.</p>
-            <p class="p_1">¿Para qué se usa el Modelo Certificado de Propiedad? </p>
-            <p>a) Para registrar las entradas y salidas de efectivo en caja.</p>
-            <p>b) Para dejar constancia oficial de la titularidad de un bien o activo, acreditando quién es su
-                propietario legítimo.</p>
-            <p>c) Para controlar las ventas realizadas sin factura inmediata.</p>
-            <p>d) Para calcular el saldo final de caja al cierre de la jornada.</p>
+        <h3 class="tematics">Modelo Liquidación Diaria de Caja</h3>
+        <p>
+          El Modelo de Liquidación Diaria de Caja se utiliza para dejar
+          constancia de todas las operaciones de efectivo realizadas en el día
+          (entradas y salidas). Permite comparar el saldo inicial con los
+          movimientos y obtener el saldo final, asegurando que coincida con el
+          efectivo realmente existente en la caja. Es un instrumento de control
+          interno fundamental para evitar errores o faltantes.
+        </p>
+        <p class="p_1">
+          ¿Para qué se usa el Modelo Liquidación Diaria de Caja?
+        </p>
+        <p>
+          a) Registrar únicamente las ventas realizadas en efectivo durante el
+          día.
+        </p>
+        <p>
+          b) Servir como comprobante para el pago de salarios a los
+          trabajadores.
+        </p>
+        <p>
+          c) Resumir y controlar todas las operaciones de entrada y salida de
+          dinero en caja durante la jornada, permitiendo verificar el saldo
+          final.
+        </p>
+        <p>d) Sustituir la factura oficial en las operaciones de venta.</p>
 
-            <h3 class="tematics">Modelo Entrega Fondo para Cambio</h3>
-            <p>El Modelo Entrega Fondo para Cambio se emplea para dejar constancia de que la administración entrega al
-                cajero una cantidad determinada de efectivo, con el objetivo de que pueda dar cambio a los clientes
-                durante las operaciones de venta. Es un mecanismo de control que asegura transparencia y responsabilidad
-                en el manejo de ese fondo.</p>
-            <p class="p_1">¿Para qué se usa el Modelo Entrega Fondo para Cambio? </p>
-            <p>a) Para registrar las ventas realizadas sin factura inmediata.</p>
-            <p>b) Para documentar la entrega de un fondo fijo de dinero al cajero, destinado a facilitar el cambio en
-                las operaciones diarias.</p>
-            <p>c) Para calcular el saldo final de caja al cierre de la jornada.</p>
-            <p>d) Para acreditar la propiedad de un bien o activo.</p>
+        <h3 class="tematics">Modelo Certificado de Propiedad</h3>
+        <p>
+          El Modelo Certificado de Propiedad es un documento que acredita la
+          propiedad de un bien o activo. Sirve como respaldo legal y
+          administrativo para demostrar quién es el titular legítimo, evitando
+          conflictos y garantizando seguridad jurídica en las operaciones de la
+          empresa.
+        </p>
+        <p class="p_1">¿Para qué se usa el Modelo Certificado de Propiedad?</p>
+        <p>a) Para registrar las entradas y salidas de efectivo en caja.</p>
+        <p>
+          b) Para dejar constancia oficial de la titularidad de un bien o
+          activo, acreditando quién es su propietario legítimo.
+        </p>
+        <p>c) Para controlar las ventas realizadas sin factura inmediata.</p>
+        <p>d) Para calcular el saldo final de caja al cierre de la jornada.</p>
 
-            <h3 class="tematics">Modelo Efectivo por Tipo de Moneda y Relación de Billetes a Depositar</h3>
-            <p>El Modelo Efectivo por Tipo de Moneda y Relación de Billetes a Depositar se emplea para organizar y dejar
-                constancia del efectivo disponible en caja, discriminado por tipo de moneda (nacional o extranjera) y
-                especificando la cantidad y denominación de los billetes que se entregarán al banco. Este documento
-                facilita el control, la conciliación y la transparencia en el proceso de depósito.</p>
-            <p class="p_1">¿Para qué se usa el Modelo Efectivo por Tipo de Moneda y Relación de Billetes a Depositar?
-            </p>
-            <p>a) Para registrar únicamente las ventas realizadas en moneda nacional.</p>
-            <p>b) Para documentar la entrega de un fondo fijo de dinero al cajero.</p>
-            <p>c) Para detallar el efectivo existente clasificado por tipo de moneda y la relación de billetes que serán
-                depositados en el banco.</p>
-            <p>d) Para acreditar la propiedad de un bien o activo.</p>
+        <h3 class="tematics">Modelo Entrega Fondo para Cambio</h3>
+        <p>
+          El Modelo Entrega Fondo para Cambio se emplea para dejar constancia de
+          que la administración entrega al cajero una cantidad determinada de
+          efectivo, con el objetivo de que pueda dar cambio a los clientes
+          durante las operaciones de venta. Es un mecanismo de control que
+          asegura transparencia y responsabilidad en el manejo de ese fondo.
+        </p>
+        <p class="p_1">¿Para qué se usa el Modelo Entrega Fondo para Cambio?</p>
+        <p>a) Para registrar las ventas realizadas sin factura inmediata.</p>
+        <p>
+          b) Para documentar la entrega de un fondo fijo de dinero al cajero,
+          destinado a facilitar el cambio en las operaciones diarias.
+        </p>
+        <p>c) Para calcular el saldo final de caja al cierre de la jornada.</p>
+        <p>d) Para acreditar la propiedad de un bien o activo.</p>
 
-            <h3 class="tematics">Modelo Control de Billetes de Alta Denominación Recibidos</h3>
-            <p>El Modelo Control de Billetes de Alta Denominación Recibidos se emplea para identificar y registrar los
-                billetes de gran valor que ingresan a la caja. Este control es importante porque dichos billetes
-                representan un riesgo mayor en términos de seguridad y manejo, por lo que se requiere un registro
-                detallado que asegure transparencia, responsabilidad y trazabilidad en las operaciones.</p>
-            <p class="p_1">¿Para qué se usa el Modelo Control de Billetes de Alta Denominación Recibidos?
-            </p>
-            <p>a) Para registrar únicamente las ventas realizadas en moneda nacional.</p>
-            <p>b) Para documentar la entrega de un fondo fijo de dinero al cajero.</p>
-            <p>c) Para llevar un control específico de los billetes de gran valor recibidos en caja, garantizando su
-                registro y custodia adecuada.</p>
-            <p>d) Para acreditar la propiedad de un bien o activo.</p>
-        </section>
+        <h3 class="tematics">
+          Modelo Efectivo por Tipo de Moneda y Relación de Billetes a Depositar
+        </h3>
+        <p>
+          El Modelo Efectivo por Tipo de Moneda y Relación de Billetes a
+          Depositar se emplea para organizar y dejar constancia del efectivo
+          disponible en caja, discriminado por tipo de moneda (nacional o
+          extranjera) y especificando la cantidad y denominación de los billetes
+          que se entregarán al banco. Este documento facilita el control, la
+          conciliación y la transparencia en el proceso de depósito.
+        </p>
+        <p class="p_1">
+          ¿Para qué se usa el Modelo Efectivo por Tipo de Moneda y Relación de
+          Billetes a Depositar?
+        </p>
+        <p>
+          a) Para registrar únicamente las ventas realizadas en moneda nacional.
+        </p>
+        <p>
+          b) Para documentar la entrega de un fondo fijo de dinero al cajero.
+        </p>
+        <p>
+          c) Para detallar el efectivo existente clasificado por tipo de moneda
+          y la relación de billetes que serán depositados en el banco.
+        </p>
+        <p>d) Para acreditar la propiedad de un bien o activo.</p>
+
+        <h3 class="tematics">
+          Modelo Control de Billetes de Alta Denominación Recibidos
+        </h3>
+        <p>
+          El Modelo Control de Billetes de Alta Denominación Recibidos se emplea
+          para identificar y registrar los billetes de gran valor que ingresan a
+          la caja. Este control es importante porque dichos billetes representan
+          un riesgo mayor en términos de seguridad y manejo, por lo que se
+          requiere un registro detallado que asegure transparencia,
+          responsabilidad y trazabilidad en las operaciones.
+        </p>
+        <p class="p_1">
+          ¿Para qué se usa el Modelo Control de Billetes de Alta Denominación
+          Recibidos?
+        </p>
+        <p>
+          a) Para registrar únicamente las ventas realizadas en moneda nacional.
+        </p>
+        <p>
+          b) Para documentar la entrega de un fondo fijo de dinero al cajero.
+        </p>
+        <p>
+          c) Para llevar un control específico de los billetes de gran valor
+          recibidos en caja, garantizando su registro y custodia adecuada.
+        </p>
+        <p>d) Para acreditar la propiedad de un bien o activo.</p>
+      </section>
+      <section class="sections" id="u4">
+        <h2 class="cont_head">Unidad 4</h2>
+
+        <h3 class="tematics">Billetes de uso Nacional</h3>
+        <p class="p_1">Billete cubano</p>
+        <p class="p_1">Características Principales</p>
+        <p><span>Material:</span> Papel moneda estándar a base de algodón.</p>
+        <p>
+          <span>Diseño:</span> Retratos de héroes de la patria e iconografía
+          histórica cubana en el anverso (José Martí, Camilo Cienfuegos, Antonio
+          Maceo, Ernesto Che Guevara, etc.). El reverso muestra hitos históricos
+          o económicos (como la entrada a La Habana o la Planta de Zeolita).
+        </p>
+        <p>
+          <span>Dimensiones:</span> Todos los billetes tienen el
+          <span>mismo tamaño exacto</span> (150\70 mm), sin importar su valor
+          facial.
+        </p>
+        <p class="p_1">Elementos distintivos clave:</p>
+        <p>
+          <span>Marca de agua:</span> Al trasluz, se ve la efigie de Celia
+          Sánchez Manduley (en las denominaciones altas de la serie 2010 como
+          200, 500 y 1000) junto al electrotipo con el número del billete.
+        </p>
+        <p>
+          <span>Cinta holográfica (Aventanillada):</span> Una tira que entra y
+          sale del papel con las siglas "BCC" y el valor del billete.
+        </p>
+        <p>
+          <span>Imagen latente:</span> En el logotipo del Banco Central de Cuba
+          (BCC), si inclinas el billete, aparece el valor en números.
+        </p>
+        <p>
+          <span>Relieve:</span> Impresión calcográfica (Intaglio) perceptible al
+          tacto en los textos principales y marcas en Braille para personas con
+          discapacidad visual.
+        </p>
+        <p class="p_1">Dólar Americano (USD)</p>
+        <p class="p_1">Características Principales</p>
+        <p>
+          <span>Material:</span> Una composición única y muy resistente de
+          <span>75% algodón y 25% lino</span>. Contiene pequeñas fibras de
+          seguridad rojas y azules intercaladas en el papel.
+        </p>
+        <p>
+          <span>Diseño:</span> Retratos de expresidentes y padres fundadores
+          (George Washington, Benjamin Franklin, etc.) en color verde
+          predominante (los billetes más nuevos añaden sutiles tonos de fondo
+          azul, cobre y gris).
+        </p>
+        <p>
+          <span>Dimensiones:</span> Al igual que el CUP, todos los billetes
+          tienen el <span>mismo tamaño estándar</span> (156\66 mm), lo que
+          significa que un billete de $1 mide exactamente lo mismo que uno de
+          $100.
+        </p>
+        <p class="p_1">Elementos distintivos clave:</p>
+        <p>
+          <span>Banda de seguridad 3D (Solo en el de $100):</span> Una franja
+          azul tejida en el papel (no impresa). Al inclinarlo, las campanas se
+          transforman en números "100" y se mueven de forma contraria al
+          movimiento del billete.
+        </p>
+        <p>
+          <span>Tinta que cambia de color:</span> El número de la esquina
+          inferior derecha cambia de color cobre a verde al inclinarlo.
+        </p>
+        <p>
+          <span>Marca de agua:</span> Un retrato tenue del personaje del billete
+          visible por ambas caras a contraluz.
+        </p>
+        <p>
+          <span>Hilo de seguridad UV:</span> Una tira interna vertical que
+          brilla con un color específico bajo luz ultravioleta según la
+          denominación (por ejemplo, rosa en el de $100, rojo en el de $50,
+          verde en el de $20).
+        </p>
+        <p class="p_1">Euro (EUR)</p>
+        <p class="p_1">Características Principales</p>
+        <p>
+          <span>Material:</span> 100% fibra de algodón puro, lo que le da una
+          textura rígida, firme y con un sonido característico al sacudirlo
+          ("carteo").
+        </p>
+        <p>
+          <span>Diseño:</span> Motivos arquitectónicos europeos de diferentes
+          épocas (ventanas y puertas en el anverso, puentes en el reverso). No
+          aparecen personas reales. Cada denominación tiene un color sumamente
+          llamativo y diferenciado.
+        </p>
+        <p>
+          <span>Dimensiones:</span> <span>Tamaño variable.</span> A diferencia
+          del CUP y el USD, a mayor valor del billete, mayor es su tamaño
+          físico. Esto ayuda drásticamente a evitar que se altere un billete de
+          baja denominación para hacerlo pasar por uno alto.
+        </p>
+        <p class="p_1">Elementos distintivos clave:</p>
+        <p>
+          <span>Número esmeralda:</span> El número grande de la esquina inferior
+          izquierda brilla y cambia de color verde esmeralda a azul oscuro al
+          inclinarlo.
+        </p>
+        <p>
+          <span>Holograma con retrato:</span> Una banda plateada a la derecha
+          que muestra un retrato de Europa (personaje mitológico), el símbolo
+          "€" y el valor del billete al girarlo.
+        </p>
+        <p>
+          <span>Ventana con retrato:</span> En los billetes de mayor valor, el
+          holograma tiene una ventana transparente que se vuelve reconocible por
+          ambos lados al trasluz.
+        </p>
+        <p>
+          <span>Líneas en relieve:</span> En los bordes izquierdo y derecho
+          cuenta con una serie de líneas cortas y gruesas al tacto para
+          identificar el billete fácilmente.
+        </p>
+        <h3 class="tematics">Tarjetas de Banda Magnética</h3>
+        <p class="p_1">Tarjeta Nacional:</p>
+        <p>- Banco Financiero Internacional (BFI)</p>
+        <p>- TRAN$CARD</p>
+        <p>- RED</p>
+        <p>- AIS</p>
+        <p>- FINCIMEX</p>
+        <p>- serCUBA</p>
+        <p>- PAGOSTUR</p>
+        <p>- CARIBBEAN TRANSFER</p>
+        <p class="p_1">Tarjeta Internacional</p>
+        <p>- VISA Internacional</p>
+        <p>- MasterCard Internacional</p>
+        <p>- CABAL</p>
+        <p>- Trancar Amigo</p>
+        <p>- Travel Card</p>
+        <p>- Union Pay</p>
+        <p>- MIR</p>
+        <h3 class="tematics">Métodos de pago del cajero chequeador</h3>
+        <p class="p_1">Efectivo</p>
+        <p>
+          El método de pago en efectivo es la más común de todas, se realizan
+          relaciones financiera mediante la retención de monedas reconocidas a
+          nivel de país según el tipo de objeto económico a procesar.
+        </p>
+        <p class="p_1">Transfrencias</p>
+        <p>
+          Las transferencias se realizan mediante los métodos de pago a una
+          cuenta bancaria asociada a este fin o métodos conocidos actualmente
+          como los son los canales de pago actuales
+        </p>
+        <p class="p_1">Cheque</p>
+        <p>
+          Este método de pago se realiza mayormente a niveles bancarios o
+          transacciones a nivel de banco. Actualmente se usa este método en
+          muchas funciones y relaciones económicas. (Ejemplo pago de salarios a
+          trabajadores, etc.)
+        </p>
+        <h3 class="tematics">
+          Ventajas del uso de los medios de pagos electrónicos
+        </h3>
+        <p class="p_1">Independencia y mitigación de la escasez de efectivo</p>
+        <p>
+          <span>Bypass a los cajeros automáticos:</span> Permite realizar
+          transacciones, compras y pagos de servicios sin depender de la
+          disponibilidad física de papel moneda en los cajeros automáticos o las
+          sucursales bancarias, reduciendo drásticamente las colas.
+        </p>
+        <p class="p_1">Incentivos económicos y bonificaciones</p>
+        <p>
+          <span>Descuentos directos:</span> El Banco Central mantiene políticas
+          de incentivos que aplican <span>bonificaciones</span> (frecuentemente
+          del 6% bajo ciertos topes de consumo, como los primeros 3,500 CUP) al
+          pagar bienes o servicios mediante pasarelas de pago digitales.
+        </p>
+        <p class="p_1">Agilidad y disponibilidad 24/7</p>
+        <p>
+          <span>Inmediatez:</span> La interoperabilidad entre cuentas de
+          diferentes bancos (Banco Metropolitano, BANDEC, BPA) permite enviar y
+          recibir dinero en tiempo real a cualquier hora del día, eliminando
+          trámites presenciales.
+        </p>
+        <p class="p_1">Seguridad y transparencia</p>
+        <p>
+          <span>Trazabilidad:</span> Cada transacción cuenta con un número de
+          operación único y comprobantes digitales (o SMS de confirmación), lo
+          que ofrece un respaldo legal claro ante reclamaciones comerciales o
+          devoluciones de fondos.
+        </p>
+      </section>
+      <section class="sections" id="u5">
+        <h2 class="cont_head">Unidad 5</h2>
+
+        <h3 class="tematics">
+          Operaciones que pueden realizarse en una caja registradora
+        </h3>
+        <p class="p_1">Operaciones de Venta y Facturación</p>
+        <p>Son las acciones del día a día durante la atención al cliente.</p>
+        <p>
+          <span>Registro de productos:</span> Escaneo de códigos de barras
+          (UPC/EAN), búsqueda manual por código o nombre, o selección directa en
+          pantallas táctiles mediante categorías visuales.
+        </p>
+        <p>
+          <span>Gestión de cantidades y variantes:</span> Modificar el número de
+          unidades de un artículo, o seleccionar tallas, colores o sabores.
+        </p>
+        <p>
+          <span>Aplicación de descuentos y promociones:</span> Descuentos
+          porcentuales o fijos a un artículo o al total de la cuenta.
+        </p>
+        <p class="p_1">Operaciones de Caja y Tesorería</p>
+        <p>
+          Estas operaciones garantizan el control del dinero físico y la
+          seguridad del efectivo.
+        </p>
+        <p>
+          <span>Apertura de caja (Fondo de caja):</span> Registrar el dinero en
+          efectivo con el que se inicia la jornada para poder dar cambio a los
+          primeros clientes.
+        </p>
+        <p class="p_1">Post-Venta y Devoluciones</p>
+        <p>
+          Operaciones que ocurren después de haberse cerrado una transacción.
+        </p>
+        <p>
+          <span>Devoluciones y Cambios:</span> Reingresar un producto al
+          inventario y reintegrar el dinero al cliente (en el mismo método de
+          pago original) o emitir un vale de compra.
+        </p>
+        <p>
+          <span>Anulación de tickets:</span> Cancelar por completo una venta mal
+          efectuada para corregir el inventario y la contabilidad.
+        </p>
+        <p>
+          <span>Reimpresión de comprobantes:</span> Volver a imprimir un ticket
+          a petición del cliente.
+        </p>
+        <h3 class="tematics">
+          Pasos para la realización del Cuadre y Liquidación
+        </h3>
+        <p>Antes de contar una sola moneda, hay que asegurar el entorno.</p>
+        <p class="p_1">Paso 1: Preparación y Aislamiento de la Caja</p>
+        <p>
+          <span>Pausar la atención:</span> Cierra la caja al público o
+          transfiere a los clientes a otra caja disponible.
+        </p>
+        <p>
+          <span>Asegurar las transacciones:</span> Confirma que no queden
+          <span>tickets en espera</span>, ventas pausadas o transacciones
+          pendientes de procesar en el datáfono/terminal de tarjetas.
+        </p>
+        <p>
+          <span>Cerrar la sesión en el POS:</span> El cajero saliente debe
+          bloquear o cerrar su usuario en el sistema para evitar que se
+          registren nuevas ventas bajo su nombre durante el conteo.
+        </p>
+        <p class="p_1">Paso 2: Conteo del Dinero Físico (El Arqueo)</p>
+        <p>
+          El cajero (idealmente supervisado) debe vaciar el cajón monedero y
+          clasificar todo lo que contiene.
+        </p>
+        <p>
+          <span>Separar el Fondo de Caja (Fijo):</span> Lo primero es retirar y
+          contar el dinero con el que se inició el turno (el cambio/vuelto
+          inicial). Este dinero se guarda intacto para el siguiente turno y no
+          entra en la liquidación de ventas.
+        </p>
+        <p>
+          <span>Contar el Efectivo de Ventas:</span> Contar y desglosar el
+          dinero restante por denominación (billetes y monedas).
+        </p>
+        <p>
+          <span>Agrupar Comprobantes No-Efectivo:</span> Imprimir el
+          <span>cierre de lote del datáfono</span> (voucher de las tarjetas de
+          crédito/débito).Juntar los vouchers físicos de tarjetas, vales,
+          cupones, recibos de transferencias QR o créditos firmados por
+          clientes.
+        </p>
+        <p class="p_1">
+          Paso 3: Introducción de Datos y Generación del “Corte Z”
+        </p>
+        <p>
+          Es el momento de confrontar la realidad física con el registro
+          digital.
+        </p>
+        <p>
+          <span>Declaración de valores:</span> En la pantalla del POS, el cajero
+          introduce el monto total contado de efectivo y los totales de los
+          otros medios de pago.
+        </p>
+        <p>
+          <span>Ejecutar el Cierre de Turno / Corte Z:</span> Se presiona el
+          botón de cierre definitivo. El sistema procesa la información, bloquea
+          el turno y emite el informe de Corte Z.
+        </p>
+        <p class="p_1">Paso 4: Justificación y Firma de la Liquidación</p>
+        <p>
+          <span>Documentar incidencias:</span> Si hay un faltante o sobrante que
+          supere el margen de tolerancia de la empresa, el cajero debe anotar la
+          justificación en el reporte físico (por ejemplo:
+          <span>”Se cayó el sistema durante un cobro y se reinició”</span> o
+          <span>”Error detectado en el ticket #045”</span> ).
+        </p>
+        <p>
+          <span>Firmas de conformidad:</span> Tanto el <span>cajero</span> como
+          el <span>supervisor/administrador</span> que valida el conteo deben
+          firmar el ticket del Corte Z impreso.
+        </p>
+        <p class="p_1">Paso 5: Resguardo y Depósito de Valores (Liquidación)</p>
+        <p>
+          <span>Embolsado de efectivo:</span> El dinero de las ventas del día
+          (excluyendo el fondo de caja) se introduce en una bolsa de seguridad o
+          sobre de arqueo junto con el reporte firmado y los vouchers de
+          tarjeta.
+        </p>
+        <p>
+          <span>Depósito:</span> Se deposita en la caja fuerte de la empresa, en
+          la oficina de administración, o se prepara para la recolección del
+          camión de valores.
+        </p>
+        <p>
+          <span>Preparación del siguiente turno:</span> El fondo de caja inicial
+          se queda físicamente en el cajón monedero, listo y ordenado para el
+          cajero que recibe el relevo.
+        </p>
+      </section>
     </main>
 
     <!--Archivo javascript-->
     <script src="js/app.js"></script>
-</body>
-
+  </body>
 </html>
